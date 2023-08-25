@@ -1,0 +1,22 @@
+mode: dev
+port: 8080
+name: Private_News_Server_Go
+version: 0.9.R
+start_time: 2023/07/24 09:47:00
+machine_id: 1
+log:
+  level: DEBUG
+  filename: F:\Project-demo\PrivateNews\logs\news.log
+  max_size: 500
+  max_age: 3
+  max_backups: 3
+mysql:
+  host: 172.18.0.194
+  user: root
+  password: Zkxy@123
+  dbname: ip-new
+  port: 3306
+  max_open_conns: 20
+  max_idle_conns: 20
+
+
